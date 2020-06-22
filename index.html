@@ -1,549 +1,629 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html lang="en">
   <head>
-    <link rel="icon" href="images/p1.jpg" type="image/gif" sizes="16x16">
+    <title>Parin Shah</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
-    <title>PARIN SHAH</title>
-    <meta name="description" content="Portfolio website of Parin Shah">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" type='text/css' media='all' href="css/webslides.css">
-    <link rel="stylesheet" type='text/css' media='all' href="css/svg-icons.css">
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type='text/css' media='all' href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+	
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <!-- Android -->
-    <meta name="mobile-web-app-capable" content="yes" class="vertical">
-    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="css/aos.css">
 
-    <!--firebase-->
-
-    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyDbjHlM0gBR6ju8vpsiwblrDBVyjqIWTj8",
-            authDomain: "website-3dd3a.firebaseapp.com",
-            databaseURL: "https://website-3dd3a.firebaseio.com",
-            projectId: "website-3dd3a",
-            storageBucket: "website-3dd3a.appspot.com",
-            messagingSenderId: "667046136607"
-        };
-        firebase.initializeApp(config);
-</script>
-
-    <style>
-    a:active {
-      color:#D32F2F;
-    }
-    a:link {
-      color:#D32F2F
-    }
-    a:visited {
-      color:#000000;
-    }
-    a:hover {
-      color:#FFFFFF;
-    }
-
-    </style>
-
-    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/v4-shims.js"></script>
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><span>P</span>arin</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
 
-  <body style="overflow:hidden">
-    <header role="banner">
-      <nav role="navigation">
-        <ul>
-          <li><a href="#slide=2">Profile</a></li>
-          <li><a href="#slide=3">Projects</a></li>
-          <li><a href="#slide=9">Abilities</a></li>
-          <li><a href="#slide=11">Experiences</a></li>
-          <li><a href="#slide=14">Contact</a></li>
-          <li class="facebook">
-            <a rel="external" href="https://www.facebook.com/parin.shah.587" title="Facebook" target="_blank">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li class="github">
-            <a rel="external" href="https://github.com/Parin09" title="GitHub" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-         </li>
-         <li class="linkedin">
-           <a rel="external" href="#" title="LinkedIn" target="_blank">
-             <i class="fab fa-linkedin-in"></i>
-           </a>
-        </li>
-       </ul>
-      </nav>
-   <!-- .end .header -->
- </header>
-    <article id="webslides" class="vertical">
-
-      <section class="bg-dark aligncenter ">
-       <span class="background dark" style="background-image:url('https://source.unsplash.com/UCZF1sXcejo/')"></span> <!-- Alt: 3BK_DyRVf90 -->
-        <!--.wrap = container (width: 90%) -->
-        <div class="wrap">
-          <h1 class="text-landing">PARIN SHAH</h1>
-          <hr>
-          <h4>Interactive Resume</h4>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
+	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+	          <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section class="hero-wrap js-fullheight">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+          	<div class="text text-center">
+          		<span class="subheading">Hey! I am</span>
+		  				<h1>Parin Shah</h1>
+			  				<h2>I'm a 
+								  <span
+								     class="txt-rotate"
+								     data-period="2000"
+								     data-rotate='["Data Analyst.","Developer.","Student." ]'></span>
+								</h2>
+							</div>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+      <div class="mouse">
+				<a href="#" class="mouse-icon">
+					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+				</a>
+			</div>
+    </section>
 
-      <section class="slide-current bg-gray" >
-        <span class="background dark" style="background-image:url('https://source.unsplash.com/cPZ21gvclO8')"></span>
-          <div class="wrap">
-            <div class="grid vertical-align">
-              <div class="column fadeInUp">
-                <h2>
-                  Oh hello!<br>I'm Parin Shah.
-                </h2>
-                <br>
-                <p>
-                  I am a student currently in my third year pursuing Btech in Computer Science at MPSTME. I am passionate about learning and implementing new technologies in various fields.
-                  I have a good knowledge of frontend web designing and android app development. I am looking for every opportunity to learn new things and be a part of an organization that helps me grow in my field.
-                </p>
+    <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex no-gutters">
+    			<div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/profilepic3.jpg);">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<h1 class="big">About</h1>
+		            <h2 class="mb-4">About Me</h2>
+		            <p style="text-align:justify">I’m a student who loves experimenting and working with new technologies. I would like to work with an organization that helps clients understand their data and leverage it using Analytics tools. I am passionate about Data Science, particularly Data Visualization and Business Intelligence. My current area of focus is Immersive Visualization, which combines Data Visualization with Immersive Technologies like Augmented Reality (AR) and Virtual Reality (VR) to effectively visualize data.</p>
+		            <ul class="about-info mt-4 px-md-0 px-2">
+		            	<li class="d-flex"><span>Name:</span> <span>Parin Shah</span></li>
+		            	<li class="d-flex"><span>Date of birth:</span> <span>January 09, 1999</span></li>
+		            	<li class="d-flex"><span>Address:</span> <span>Mumbai, India</span></li>
+		            	<li class="d-flex"><span>Email:</span> <span>parin090199@gmail.com</span></li>
+		            	<li class="d-flex"><span>Phone: </span> <span>+91 9892770870</span></li>
+		            </ul>
+		          </div>
+		        </div>
+	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+              	<p class="mb-4">
+					<span><a href="https://github.com/Parin09" target="_blank" style="color:rgb(233, 89, 80)"><i class="fab fa-github fa-3x"></i></a></span>
+					&nbsp;&nbsp;
+					<span><a href="https://www.linkedin.com/in/parin-shah-703501169/" target="_blank" style="color:rgb(0, 172, 237)"><i class="fab fa-linkedin-in fa-3x"></i></a></span>
+					&nbsp;&nbsp;
+					<span><a href="https://public.tableau.com/profile/parin.shah4447#!/"><img src="images/logos/tableau.svg" height="60" width="80" alt="Colorlib Template"></a></span>
+					&nbsp;&nbsp;
+					<span><a href="mailto:parin090199@gmail.com" target="_blank" style="color:rgb(24, 22, 22)"><i class="fa fa-envelope fa-3x"></i></a></span>
+					<!-- <a href="Parin Shah.pdf" class="btn btn-primary py-3 px-3">Download CV</a> -->
+				</p> 
+
+				<p><a href="Parin Shah.pdf" class="btn btn-primary py-3 px-3">Download CV</a></p>
+				
               </div>
-
-              <div class="column ">
-                <figure>
-                  <img class="alignright" src="images/parin.jpg">
-                </figure>
-              </div>
-            </div>
-          </div>
-      </section>
-
-      <section class="bg-black">
-        <span class="background dark" style="background-image:url('https://source.unsplash.com/ZMraoOybTLQ')"></span> <!-- Alt: m_HRfLhgABo -->
-        <div class="wrap aligncenter   ">
-          <h1><strong>Projects</strong></h1><hr>
-          <blockquote>
-              <p>"You can do anything you set your mind to"</p>
-              <p><cite>Benjamin Franklin</cite></p>
-            </blockquote>
+	          </div>
+	        </div>
         </div>
-        <!-- .end .wrap -->
-      </section>
+    	</div>
+    </section>
 
-
-
-      <section>
-        <div class="wrap">
-          <div class="grid vertical-align">
-            <div class="column">
-              <h2>FurnitAR</h2>
-              <br>
-              <p class="text-intro">FurnitAR is an android app that uses marker-based AR technology to superimpose a desired piece of furniture into your home environment with ability to </p>
-              <ul class="description">
-                <li>Resize</li>
-                <li>Relocate</li>
-                <li>Change Design</li>
-              </ul>
-            </div>
-            <div class="column">
-              <figure>
-                <img  src="images/furnitar2.jpg">
-              </figure>
-            </div>
-            <div class="column">
-              <figure>
-                <img  src="images/furnitar3.jpg">
-              </figure>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="bg-gray">
-        <div class="wrap">
-          <div class="content-left">
-            <h2><strong>More about FurnitAR</strong></h2>
-          </div>
-          <!-- end .content-left -->
-          <div class="content-left">
-            <h2>Build with Unity 3D and vuforia.</h2>
-            <br>
-            <p>The process is simple </p>
-            <ul class="description">
-              <li>Select the furniture item</li>
-              <li>App recognizes Image target</li>
-              <li>Superimposes object onto reality</li>
-            </ul>
-          </div>
-          <!-- end .content-left -->
-          <ul class="flexblock metrics   ">
-            <li>
-              <span><img  src="images/unity1.png"></span>
-            </li>
-            <li>
-              <span>
-                <img src="images/vuforia.png">
-              </span>
-            </li>
-            <li>
-              <i class="fas fa-download"></i>
-              <a href="https://drive.google.com/drive/folders/1AW1_9v9oOOSkarm86kpVUspUz6AmbuON">Download the App</a>
-            </li>
-          </ul>
-        </div>
-        <!-- .end .wrap -->
-      </section>
-
-      <section>
-        <div class="embed dark">
-          <p>This video shows how the app works:</p>
-          <video autoplay loop poster="/images/furnitar2.JPG">
-            <source src="images/FurnitARVid.mp4" type="video/mp4">
-          </video>
-        </div>
-        <!-- .end .embed -->
-      </section>
-
-      <section>
-        <div class="wrap">
-          <div class="grid vertical-align">
-            <div class="column">
-              <h2>RCBU</h2>
-              <br>
-              <p class="text-intro">Rotaract Club of Bombay Uptown is a youth run organization part of the International Rotaract movement.
-              </p>
-              <p class="text-intro">This app is an introductory informatory public relations targeted with features to reach them or register with them.</p>
-            </div>
-            <div class="column">
-              <figure>
-                <img  src="images/rcbuss1.jpg">
-              </figure>
-            </div>
-            <div class="column">
-              <figure>
-                <img  src="images/rcbuss2.jpg">
-              </figure>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="bg-gray">
-        <div class="wrap">
-          <div class="content-left">
-            <h2><strong>More about RCBU</strong></h2>
-          </div>
-          <!-- end .content-left -->
-          <div class="content-left">
-            <h2>Build with Android Studio.</h2>
-            <br>
-            <p>Features of the app</p>
-            <ul class="description">
-              <li>Gives a complete overview of the club</li>
-              <li>Ease of Navigation</li>
-              <li>Clean Design</li>
-              <li>Ability to Register</li>
-            </ul>
-          </div>
-          <!-- end .content-left -->
-          <ul class="flexblock metrics   ">
-            <li>
-              <span><img  src="images/android_studio.png"></span>
-            </li>
-            <li>
-              <span>
-                 <br><p>4.8 &#9733;</p>
-              </span>
-            </li>
-            <li>
-              <span><img  src="images/bt-playstore.png"></span>
-              <a href="https://play.google.com/store/apps/details?id=shlok.parin.rcbu1">Download the App</a>
-            </li>
-          </ul>
-        </div>
-        <!-- .end .wrap -->
-      </section>
-
-      <section class="bg-gray">
-        <div class="wrap">
-          <h1 class="aligncenter">Abilities </h1><br>
-          <div class="content-center">
-            <blockquote class="aligncenter">
-                <p>"Life without knowledge is death in disguise."</p>
-                <p><cite>Talib Kweli</cite></p><hr>
-            </blockquote>
-        </div>
-          <ul class="flexblock steps ">
-            <!-- li>a? Add blink = <ul class="flexblock steps blink">-->
-            <li>
-
-              <h2 class="aligncenter">HTML(5)</h2>
-              <span>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-              </span>
-            </li>
-            <li>
-              <div class="process step-2"></div>
-              <h2 class="aligncenter">CSS(3)</h2>
-              <span>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-              </span>
-            </li>
-
-            <li>
-              <div class="process step-3"></div>
-              <h2 class="aligncenter">PHP</h2>
-              <span>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-              </span>
-            </li>
-            <li>
-              <div class="process step-4"></div>
-              <h2 class="aligncenter">MySQL</h2>
-              <span>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-              </span>
-            </li>
-            <li>
-              <div class="process step-4"></div>
-              <h2 class="aligncenter">Java</h2>
-              <span>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-              </span>
-            </li>
-            <li>
-              <div class="process step-2"></div>
-              <h2 class="aligncenter">C</h2>
-              <span>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-              </span>
-            </li>
-            <li>
-              <div class="process step-3"></div>
-              <h2 class="aligncenter">C++</h2>
-              <span>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-              </span>
-            </li>
-            <li>
-              <div class="process step-4"></div>
-              <h2 class="aligncenter">Python</h2>
-              <span>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-                <i class="fas fa-star fa-xs" aria-hidden="true" style="font-size:20px;"></i>
-              </span>
-            </li>
-          </ul>
-        </div>
-        <!-- .end .wrap -->
-      </section>
-
-      <section class="bg-gray">
-        <div class="wrap">
-          <h1>Abilities </h1>
-          <p>Frameworks/Platforms</p>
-          <ul class="flexblock clients ">
-            <!-- li>a? Add blink = <ul class="flexblock steps blink">-->
-            <li>
-              <figure>
-                <img  src="images/bootstrap.png">
-                <figcaption>
-                  <p><br>Used in development of websites.</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li>
-              <figure>
-                <img  src="images/android_studio.png">
-                <figcaption>
-                  <p><br><br>Used for development of RCBU app.</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li>
-              <figure>
-                <img class="blacklogo" src="images/unity1.png">
-                <figcaption>
-                  <p><br><br>Used along with vuforia for development of FurnitAR app.</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li>
-              <figure>
-                <img src="images/django.png">
-                <figcaption>
-                  <p>Worked on django as a backend tool during internship.</p>
-                </figcaption>
-              </figure>
-            </li>
-          </ul>
-        </div>
-        <!-- .end .wrap -->
-      </section>
-
-      <section class="bg-black">
-        <span class="background dark" style="background-image:url('https://source.unsplash.com/npxXWgQ33ZQ')"></span> <!-- Alt: m_HRfLhgABo -->
-        <div class="wrap aligncenter   ">
-          <h1><strong>Experiences</strong></h1><hr>
-          <blockquote>
-              <p>"Nothing ever becomes real 'til it is experienced"</p>
-              <p><cite>Jhon Keats</cite></p>
-            </blockquote>
-        </div>
-        <!-- .end .wrap -->
-      </section>
-
-      <section class="current-slide ">
-
-          <div class="wrap">
-            <h3>Education</h3>
-            <ul class="flexblock blink border">
-              <li>
-                <a href="#" >
-                  <div>
-                    <h3 class="aligncenter"><strong>Mukesh Patel School of Technology Management & Engineering</strong></h3>
-                    <p class="aligncenter">July 2016 - current</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <div>
-                    <h3><strong>Bachelor - Computer Science</strong></h3>
-                    <p>Currently in my third year of college. In the past two years I learned about a variety of subjects including Data Structures and Algorithm , SQL , Computer Networks , Operating Systems and many more.</p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-            <ul class="flexblock blink border">
-              <li>
-                <a href="#" >
-                  <div>
-                    <h3 class="aligncenter"><strong>Pace Junior Science College</strong></h3>
-                    <p class="aligncenter">March 2014 - May 2016</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <div>
-                    <h3><strong>Junior College</strong></h3>
-                    <p>Studied in depth about various topics of math , physics and chemistry.</p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-            <ul class="flexblock blink border">
-              <li>
-                <a href="#" >
-                  <div>
-                    <h3 class="aligncenter"><strong>Ryan International School</strong></h3>
-                    <p class="aligncenter">May 1999 - Feb 2014</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <div>
-                    <h3><strong>Schooling</strong></h3>
-                    <p>I enjoyed doing math , physics and chemistry along with many other subjects. </p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-      </section>
-
-      <section class="current-slide">
-          <div class="wrap">
-            <h3>Careers</h3>
-            <ul class="flexblock blink border">
-              <li>
-                <a href="#" >
-                  <div>
-                    <h3 class="aligncenter"><strong>Rubit Technologies</strong></h3>
-                    <p class="aligncenter">May 2018 - June 2018</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <div>
-                    <h3><strong>Internship - Web Developer</strong></h3>
-                    <p>Worked to build an interactive website that solves the programming related doubts of students.<br>Worked primarily on HTML ,CSS for frontend and PHP ,Django for backend. Learnt to make REST API's and implement them in android app </p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-            <br><br>
-            <h3>Committees</h3>
-            <ul class="flexblock blink border">
-              <li>
-                <a href="https://mpstme.acm.org/" title="ACM MPSTME Website">
-                  <div>
-                    <h3 class="aligncenter"><strong>Association for Computing Machinery (ACM)</strong></h3>
-                    <span class="aligncenter"><img class="aligncenter" src="images/acm_logo.png"></span>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <div>
-                    <h3><strong>Head of Technical Department</strong></h3>
-                    <p>Worked as a member to organize and conduct various workshops like C proramming workshop , Web development workshop and many more.</p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </section>
-      <section class="bg-apple">
-    		<div class="wrap">
-    			<h2 class="text-landing aligncenter">Contact</h2><br><br>
-          <div class="content-center">
-            <blockquote class="aligncenter">
-                <p >"The art of communication is the language of leadership"</p>
-                <p><cite>James Humes</cite></p><hr>
-            </blockquote>
-        </div>
-    			<br><br><br>
-    			<ul class="flexblock aligncenter">
-    				<li class="  "><span><a href="https://www.facebook.com/parin.shah.587" target="_blank" style="color:rgb(59, 89, 152)"><i class="fa fa-facebook fa-3x"></i></span><br><p></a></p></li>
-            <li class="  "><span><a href="https://github.com/Parin09" target="_blank" style="color:rgb(233, 89, 80)"><i class="fab fa-github fa-3x"></i></span><br><p></a></p></li>
-            <li class="  "><span><a href="#" target="_blank" style="color:rgb(0, 172, 237)"><i class="fab fa-linkedin-in fa-3x"></i></span><br><p></a></p></li>
-            <li class="  "><span><a href="mailto:parin090199@gmail.com" target="_blank" style="color:rgb(255,255,255)"><i class="fa fa-envelope fa-3x"></i></span><br><p></a></p></li>
-    			</ul>
+    <!-- <section class="ftco-section ftco-partner">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="images/logos/nmims.png" class="img-fluid" alt="Colorlib Template"></a>
+				</div>
+				<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="images/logos/uscl4.png" class="img-fluid" alt="Colorlib Template"></a>
+				</div>
+				<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="images/logos/oracle.png" class="img-fluid" alt="Colorlib Template"></a>
+				</div>
+				<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="images/logos/acm3.png" class="img-fluid" alt="Colorlib Template"></a>
+    			</div>
+    			<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="images/logos/sas.png" class="img-fluid" alt="Colorlib Template"></a>
+    			</div>
     		</div>
-    	<br><br><br>
-    	</section>
-    </article>
+    	</div>
+    </section> -->
 
-      <!-- Required -->
-      <script src="js/webslides.js"></script>
-      <script> window.ws = new WebSlides();</script>
+    <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-3">
+				    <nav id="navi">
+					    <ul>
+					      <li><a href="#page-1">Education</a></li>
+					      <li><a href="#page-2">Experience</a></li>
+					      <li><a href="#page-3">Skills</a></li>
+					      <li><a href="#page-4">Courses</a></li>
+					    </ul>
+					  </nav>
+					</div>
+					<div class="col-md-9">
+					  <div id="page-1" class= "page one">
+						<h2 class="heading">Education</h2>
+						<!-- <div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span><img src="images/logos/uscl9.jpg" class="img-fluid" alt="Colorlib Template"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2020-2022</span>
+		    					<h2>Masters of Science in Computer Science</h2>
+		    					<span class="position">University of Southern California</span>
+		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		    				</div>
+	    				</div>   -->
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span><img src="images/logos/nmims2.png" class="img-fluid" alt="Colorlib Template"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2016-2020</span>
+		    					<h2>Bachelor of Technology in Computer Engineering</h2>
+								<span class="position">NMIMS University</span><br>
+								<span class="position">Grade: 83.5%  (3.56/4)</span>
+		    					<p style="text-align:justify"><b>Relevant Coursework:</b> Artificial Intelligence, Soft Computing, Data Mining, Predictive Modelling, Database Management Systems, Data Warehousing and Mining, Operations Research, Data Structures, Design and Analysis of Algorithms, Discrete Structures, Fundamentals of Web Technology, Computer Networks</p>
+	    					</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span></span><img src="images/logos/pace2.jpg" class="img-fluid" alt="Colorlib Template"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2014-2016</span>
+		    					<h2>Senior Secondary Education</h2>
+								<span class="position">Pace Junior Science College</span><br>
+								<span class="position">Grade 12th(HSC): 86%</span>
+		    					<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span><img src="images/logos/ryan3.png" class="img-fluid" alt="Colorlib Template"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2014-2002</span>
+								<h2>Secondary School</h2>
+								<span class="position">Ryan International School</span><br>
+								<span class="position">Grade 10th(ICSE): 90%</span>
+		    					<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
+		    				</div>
+	    				</div>
+					  </div>
 
-      <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
-      <script defer src="js/svg-icons.js"></script>
+					  <div id="page-2" class= "page two">
+					  	<h2 class="heading">Experience</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<a href="https://birthvenue.in/"><span><img src="images/logos/bv4.png" class="img-fluid" alt="Colorlib Template"></span></a>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">March 2019 - May 2020</span>
+		    					<h2>Project Intern</h2>
+		    					<a href="https://birthvenue.in/"><span class="position">Birthvenue</span></a>
+								<p style="text-align:justify">
+									<ul style="text-align:justify">
+										<li>Developed a universal rating platform for all types of cryptocurrencies and tokens available in the market based on
+											financial and non-financial parameters to help investors make decisions.</li>
+										<li>Designed a regularized regression model that takes in the parameters, determines the ranking and displays the rankings
+											of over 1100 cryptocurrencies on a <a href="http://theratingproject.com/">website.</a></li>
+										<li>Published a whitepaper that includes details about the phases, parameters and the developed model.</li>
+										<li>Technologies and Frameworks used: Python, HTML, CSS, ReactJS, MySQL, AWS, Flask.</li>
+									</ul>
+								</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<a href = "https://www.oracle.com/industries/financial-services/"><span><img src="images/logos/oracle1.jpg" class="img-fluid" alt="Colorlib Template"></span></a>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">May 2019 - July 2019</span>
+		    					<h2>Research Intern</h2>
+								<a href = "https://www.oracle.com/industries/financial-services/"><span class="position">Oracle Financial Services Software</span></a>
+								<p style="text-align:justify">
+									<ul style="text-align:justify">
+										<li>Interlinked LDAP server in Kubernetes for authorization purposes to automate manual formation of access roles in banking
+											systems using existing data.</li>
+										<li>Implemented OpenID connect with Dex to fetch the relevant roles from the server and authorized multiple users by
+											assigning permission to roles using Role Based Access Control (RBAC).</li>
+										<li>Technologies Used: Docker, Kubernetes, Java, HTML.</li>
+									</ul>
+								</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<a href="https://mpstme.acm.org/#slide=1"><span><img src="images/logos/acm4.png" class="img-fluid" alt="Colorlib Template"></span></a>
+					    	</div>
+					    	<div class="text pl-3">
+								<a href="https://mpstme.acm.org/#slide=1"><h2>Association for Computing Machinery</h2></a>
+								<!-- <span class="position">Association for Computing Machinery</span> -->
+		    					<span class="date">June 2019 - May 2020</span><br>
+		    					<span class="position">Student Mentor</span>
+		    					
+		    					<p><ul><li>Mentored the Technical Department on steps to be taken for furthering the growth of the committee.</li></ul></p>
+								
+								<span class="date">June 2018 - May 2019</span><br>
+		    					<span class="position">Technical Head</span>
+		    					
+								<p>
+									<ul style="text-align:justify">
+										<li>Responsible for recruiting and managing a team of 15 students focused at conducting workshops and seminars to imbibe a
+											technical culture in college.</li>
+										<li>
+											Conducted and taught in various workshops like Augmented Reality workshop using Unity 3D (40 participants), C workshop (150
+											participants), Amazon Alexa skill building workshop (25 participants).
+										</li>
+										<li>
+											Organized and designed questions for intercollege and intracollege coding events. Developed the committee <a href="https://mpstme.acm.org/#slide=1">website</a>. 
+										</li>
+										<li>
+											Mentored teams for building projects in the domain of Augmented Reality.
+										</li>
+									</ul>
+								</p>
+								
+								
+		    					<span class="date">June 2017 - May 2018</span><br>
+		    					<span class="position">Technical Executive</span>
+								<p>
+									<ul>
+										<li>
+											Assisted the committee in conducting events and served as debugger during workshops.
+										</li>
+									</ul>
+								</p>
+							
+							</div>
+	    				</div>
+	    				
+					  </div>
+					  <div id="page-3" class= "page three">
+						  <h2 class="heading">Skills</h2>
+						  <table class="table table-hover">
+							<tbody>
+							  <tr>
+								<td>Languages</td>
+								<td>Python, SQL, SAS, C, C++.</td>
+							  </tr>
+							  <tr>
+								<td>Python Libraries</td>
+								<td>Matplotlib, Seaborn, Plotly, Pandas, Numpy, Scikit Learn, Tensorflow, Keras.</td>
+							  </tr>
+							  <tr>
+								<td>Software Tools</td>
+								<td>SAS Visual Analytics, Tableau, Alteryx, Unity 3D, Android Studio, Docker, Kubernetes.</td>
+							  </tr>
+							  <tr>
+								<td>Web Dev</td>
+								<td>HTML, CSS, Bootstrap, JavaScript, PHP, ReactJS, Django, Flask</td>
+							  </tr>							  
+							</tbody>
+						  </table>
+
+					  </div>
+					  <div id="page-4" class= "page four">
+						<h2 class="heading">Certification and Courses</h2>
+						
+						<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<a href="https://coursera.org/share/173cec9adc33a8e31a0e845a93806b2e"><span><img src="images/logos/coursera2.jpg" class="img-fluid" alt="Colorlib Template"></span></a>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">June 2020</span>
+		    					<a href="https://coursera.org/share/173cec9adc33a8e31a0e845a93806b2e"><h2>Data Visualization with Tableau Specilization</h2></a>
+		    					<span class="position">University of California Davis</span>
+								<p style="text-align: justify;">Generated powerful reports and dashboards that help people make decisions and take action based on the business data. Used Tableau to create high-impact visualizations of common data analyses to help see and understand the data.<a href="https://public.tableau.com/views/IndianStartupsAnalysis/Story1?:language=en&:display_count=y&:origin=viz_share_link">  (Capstone Project)</a></p>
+								<!-- <p>Courses: Fundamentals of Visualization with Tableau | Essential Design Principles for Tableau | Visual Analytics with Tableau | Creating Dashboards and Storytelling with Tableau | Data Visualization with Tableau Project</p> -->
+		    				</div>
+	    				</div>
+						<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+								<a href="https://confirm.udacity.com/6A6FMDQ"><span><img src="images/logos/udacity1.png" class="img-fluid" alt="Colorlib Template"></span></a>					    	
+							</div>
+					    	<div class="text pl-3">
+		    					<span class="date">June 2020</span>
+		    					<a href="https://confirm.udacity.com/6A6FMDQ"><h2>AI for Trading</h2></a>
+		    					<span class="position">Udacity Nanodegree</span>
+		    					<p style="text-align: justify;">Learned the basics of quantitative analysis, including data processing, trading signal generation, and portfolio management. Used Python to work with historical stock data, develop trading strategies, and construct a multi-factor model with optimization.</p>
+		    				</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<a href="https://coursera.org/share/905891e328544f3058b22c1cc9807ea8"><span><img src="images/logos/coursera2.jpg" class="img-fluid" alt="Colorlib Template"></span></a>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">Dec 2019</span>
+		    					<a href="https://coursera.org/share/905891e328544f3058b22c1cc9807ea8"><h2>Applied Data Science with Python Specilization</h2></a>
+		    					<span class="position">University of Michigan</span>
+		    					<p style="text-align: justify;">Applied statistical, machine learning, information visualization, text analysis, and social network analysis techniques through python toolkits such as pandas, matplotlib, scikit-learn, nltk, and networkx to gain insight into the data.</p>
+		    				</div>
+	    				</div>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<a href="https://www.youracclaim.com/badges/b3bf0beb-869f-4a2b-ac67-da282c13deac/linked_in_profile"><span><img src="images/logos/sas_c.png" class="img-fluid" alt="Colorlib Template"></span></a>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">Nov 2019</span>
+		    					<a href="https://www.youracclaim.com/badges/b3bf0beb-869f-4a2b-ac67-da282c13deac/linked_in_profile"><h2>Programming Fundamentals using SAS 9.4</h2></a>
+		    					<span class="position">SAS Certified Associate</span>
+		    					<p style="text-align: justify;">Cleared the Base SAS certifiation exam and demonstrated experience in programming and data management using SAS 9.4.</p>
+	    					</div>
+						</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<a href="https://coursera.org/share/499ba45e5b394f7353783157a8e92e54"><span><img src="images/logos/coursera2.jpg" class="img-fluid" alt="Colorlib Template"></span></a>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">Oct 2018</span>
+		    					<a href="https://coursera.org/share/499ba45e5b394f7353783157a8e92e54"><h2>Machine Learning</h2></a>
+		    					<span class="position">Stanford University</span>
+		    					<p style="text-align: justify;">Learned about the most effective machine learning techniques, and gained practice implementing. Gained the practical know-how needed to quickly and powerfully apply these techniques to new problems. </p>
+		    				</div>
+	    				</div>
+	    				
+					  </div>
+					</div>
+			  </div>
+    	</div>
+	</section>
+	
+    <section class="ftco-section" id="projects-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>"You can do anything you set your mind to" &emsp;- <i>Benjamin Franklin</i></p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="reports3d.html" class="block-20" style="background-image: url('images/projects/reports3d1.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+				<h3 class="heading"><a href="reports3d.html">Reports 3D</a>&nbsp;&nbsp;<a href = "https://github.com/Parin09/Reports3D"><i class="fab fa-github fa-lg"></i></a>&nbsp;&nbsp;<a href="https://parin09.github.io/reports3Dweb/"><i class="fas fa-globe fa-lg"></i></a></h3>
+                <div class="d-flex align-items-center mb-3 meta">
+	                <p class="mb-0">
+						<span class="mr-2">Deep Learning | Augmented Reality</span>
+	                </p> 
+                </div>
+                <p>Immersive Visualization in Medical Imaging. Generating 3D reports of brain.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/Parin09/C-Drive" class="block-20" style="background-image: url('images/projects/cdrive.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="https://github.com/Parin09/C-Drive">C:Drive</a>&nbsp;&nbsp;<a href = "https://github.com/Parin09/C-Drive"><i class="fab fa-github fa-lg"></i></a></h3>
+				<div class="d-flex align-items-center mb-3 meta">
+	                <p class="mb-0">
+						<span class="mr-2">Web Application | Databases</span>
+	                </p> 
+                </div>
+				<p>Online collaborative tool to aid resource sharing for students and teachers.</p>
+              </div>
+            </div>
+		  </div>
+		  <div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="grocery.html" class="block-20" style="background-image: url('images/projects/grocery.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+			  <h3 class="heading"><a href="grocery.html">Grocery Store Case Study</a>&nbsp;&nbsp;<a href = "https://github.com/Parin09/Predictive-Analytics-for-Business/blob/master/Project%205%20Segmentation%20and%20Clustering/Project5-Capstone.pdf"><i class="fab fa-github fa-lg"></i></a></h3>
+			  <div class="d-flex align-items-center mb-3 meta">
+				<p class="mb-0">
+					<span class="mr-2">Machine Learning | Forecasting</span>
+				</p> 
+			  </div>
+			  <p>Provided recommendation using various analytical techniques on how to expand to a grocery store chain.</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="indianstartupanalysis.html" class="block-20" style="background-image: url('images/projects/indian2.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+			  <h3 class="heading"><a href="indianstartupanalysis.html">Indian Startups Analysis</a>&nbsp;&nbsp;<a href = "https://github.com/Parin09/Indian-Startup-Funding"><i class="fab fa-github fa-lg"></i></a></h3>
+			  <div class="d-flex align-items-center mb-3 meta">
+				<p class="mb-0">
+					<span class="mr-2">Data Analysis | Data Visualization</span>
+				</p> 
+			  </div>
+			  <p>Exploratory Data Analysis of startup ecosystem in India</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="furnitar.html" class="block-20" style="background-image: url('images/projects/furnitar2.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+			  <h3 class="heading"><a href="furnitar.html">FurnitAR</a></h3>
+			  <div class="d-flex align-items-center mb-3 meta">
+				<p class="mb-0">
+					<span class="mr-2">Augmented Reality | Android Application</span>
+				</p> 
+			  </div> 
+			  <p>Augmented Reality application to enhance online furniture shopping experience.</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="rcbu.html" class="block-20" style="background-image: url('images/projects/rcbu2.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+			  <h3 class="heading"><a href="rcbu.html">RCBU App</a></h3>
+			  <div class="d-flex align-items-center mb-3 meta">
+				<p class="mb-0">
+					<span class="mr-2">Android Application | Databases </span>
+				</p> 
+			  </div> 
+			  <p>Android app for Rotaract Club of Bombay Uptown</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4"></div>
+		<!-- <div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="single.html" class="block-20" style="background-image: url('images/projects/ecommerce.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+			  <h3 class="heading"><a href="single.html">ECommerce Portal</a>&nbsp;&nbsp;<a href = ""><i class="fab fa-github fa-lg"></i></a></h3>
+			  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+			</div>
+		  </div>
+		</div> -->
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="newspapar.html" class="block-20" style="background-image: url('images/projects/newspapar.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+			  <h3 class="heading"><a href="newspapar.html">NewspapAR</a></h3>
+			  <p>Application to bring static images and other content in newspaper to life.</p>
+			</div>
+		  </div>
+		</div>
+         
+		
+		
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="ftco-section ftco-hireme img" style="background-image: url(images/bg_1.jpg)">
+    	<div class="overlay"></div>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>I'm <span>Available</span> for freelancing</h2>
+						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+						<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Hire me</a></p>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>"The art of communication is the language of leadership"&emsp;- <i>James Humes</i></p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Address</h3>
+		            <p>Mumbai, India, 400064</p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Contact Number</h3>
+		            <p><a href="tel://+919892770870">+91 9892770870</a></p>
+	            </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Email Address</h3>
+		            <p><a href="mailto:parin090199@gmail.com">parin090199@gmail.com</a></p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+					<span target="_blank" style="color:rgb(255, 255, 255)"><i class="fab fa-linkedin-in fa-lg"></i></span>
+          			<!-- <span><i></i></span> -->
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Linkedin</h3>
+		            <p><a href="https://www.linkedin.com/in/parin-shah-703501169/">linkedin/parin-shah</a></p>
+	            </div>
+	          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+
+	<!-- 9082 styles.css -->
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
 </html>
